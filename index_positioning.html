@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Positioning</title>
+     <!--<link rel="stylesheet" href="CSS.css"/>-->
+        
+    <style>
+
+        body {
+            background-image: url("gradient.jpg");
+        }
+
+        .greentexture {
+            width: 500px;
+            height: 500px;
+            background-image: url("felt2.jpg");
+            position: relative;
+        }
+
+        .playingcard1 {
+            position: absolute;
+            top: 10px;
+            left: 40px;
+            z-index: 5;
+        }
+
+        .playingcard2 {
+            position: absolute;
+            top: 20px;
+            left: 50px;
+            z-index: 10;
+        }
+
+        .playingcard3 {
+            position: absolute;
+            top: 30px;
+            left: 60px;
+            z-index: 15;
+        }
+
+        .playingcard4 {
+            position: absolute;
+            top: 40px;
+            left: 70px;
+            z-index: 20;
+        }
+
+            </style>
+</head>
+<body>
+
+<div class="greentexture">
+    <img src="felt2.jpg" height="150" width="150" class="greentexture" alt="Background">
+    <img src="jackclubs.png" height="100" width="64" class="playingcard1" alt="jack of clubs"/>
+    <img src="kingspades.png" height="100" width="64" class="playingcard2" alt="king of spades"/>
+    <img src="queenhearts.png" height="100" width="64" class="playingcard3" alt="queen of hearts"/>
+    <img src="tendiamonds.png" height="100" width="64" class="playingcard4" alt="ten of diamonds"/>
+</div>
+</body>
+</html>
